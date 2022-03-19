@@ -27,6 +27,7 @@ body {
 }
 
 a{
+  color: white;
   text-decoration: none;
 }
 a:visited {
@@ -40,7 +41,7 @@ a:visited {
 
   }
   50% {
-    filter: drop-shadow(7px 30px 12px #5a6aec) saturate(150%);
+    filter: drop-shadow(7px 30px 12px #25318b) saturate(150%);
     transform: translatey(-15px);
   }
   100% {

@@ -23,21 +23,17 @@ function Home() {
                         <ArrowRightSvg />
                     </div>
                 </div>
-                <div>
                 <img 
                     className="home__image"
                     src="/images/HDMIlogo.gif"
                     alt="LogoHDMI"
                 />
-                </div>
             </div>
-            <div className="home__backgroundImage__container">
-                <img 
-                    className="home__backgroundImage"
-                    src="/images/HDMIlogo.gif"
-                    alt="LogoHDMI"
-                />
-            </div>
+            <img 
+                className="home__backgroundImage"
+                src="/images/HDMIlogo.gif"
+                alt="LogoHDMI"
+            />
             <div className='home__gradient'></div>
             <div className="home__scroll"> 
                <ArrowDownSvg />

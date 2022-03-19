@@ -11,7 +11,6 @@ function App() {
       <Home />
       <div id="fonctionnalite"></div>
       <Investment />
-      <Market />
       <Footer />
     </div>
   );
