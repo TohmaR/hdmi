@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './App.css';
 import locomotiveScroll from 'locomotive-scroll';
-import CustomScroll from 'react-custom-scroll';
 import Header from './components/main/Header/Header';
 import Home from './components/Home/Home';
 import Investment from './components/Investment/Investment';
@@ -27,7 +26,6 @@ function App() {
   });
   
   return (
-    <CustomScroll>
       <div className="App" ref={scrollRef}>
         <Header />
         <Home />
@@ -35,7 +33,6 @@ function App() {
         <Investment />
         <Footer />
       </div>
-    </CustomScroll>
   );
 }
 

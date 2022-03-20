@@ -1,0 +1,14 @@
+.progressBar__container{
+    background-color: #2a3578;
+    height: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.progressBar__indicator{
+    height: 10px;
+    background-color: #fed41e;
+}
