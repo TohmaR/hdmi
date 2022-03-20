@@ -14,6 +14,7 @@ header{
     font-size: 18px;
     font-family: hemiHead;
     z-index: 99;
+    user-select: none;
 }
 
 .header__left{
@@ -27,12 +28,23 @@ header{
     align-items: center;
     justify-content: flex-end;
 }
-
+.header__logo{
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.header__logo:hover{
+    transform: scale(1.05);
+}
 .header__hdmi{
     position: relative;
     left: -10px;
     font-size: 35px;
     cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.header__hdmi:hover{
+  color: #fed41e;
 }
 
 .header__nav{
@@ -178,13 +190,31 @@ header{
 .header__social svg:first-child{
     margin-right: 10px;
 }
+
+.header__social svg{
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.header__social svg:hover{
+    fill: #fed41e;
+}
+
 .header__cta{
     padding: 10px 25px;
     border-radius: 10px;
     background-color: #3c49aa;
     color: #fed41e;
     font-weight: 700;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
 }
+
+.header__cta:hover{
+    color: #3c49aa;
+    background-color: #fed41e;
+}
+
 
 @media screen and (min-width: 1025px) {
 

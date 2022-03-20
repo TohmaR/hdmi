@@ -3,11 +3,11 @@ import React from 'react'
 function investment() {
   return (
     <section className="fonctionnalite investment" data-scroll-section>
-        <div className="fonctionnalite__title__container">
+        <div className="fonctionnalite__title__container" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2" data-scroll-position="center" data-scroll-offset="-50%">
             <h2 className="fonctionnalite__title">Investissement</h2>
             <h2 className="fonctionnalite__title">Investissement</h2>
         </div>
-        <div className='fonctionnalite__container'>
+        <div className='fonctionnalite__container' data-scroll data-scroll-direction="vertical" data-scroll-speed="3" data-scroll-position="center" data-scroll-offset="-50%">
             <img 
                 className="fonctionnalite__logo"
                 src="/images/investment.png"

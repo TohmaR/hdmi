@@ -12,13 +12,17 @@ function Header() {
             &&
             <header>
                 <div className="header__left">
-                    <img 
-                        src="/images/HDMIlogo.gif"
-                        alt="LogoHDMI"
-                        width={100}
-                        height={100}
-                    />
-                    <span className='header__hdmi'>HDMI</span>
+                    <a href="/">
+                        <img 
+                            className='header__logo'
+                            src="/images/HDMIlogo.gif"
+                            alt="LogoHDMI"
+                            width={100}
+                            height={100}
+                        />
+                    </a>
+                   <a href="/"><span className='header__hdmi'>HDMI</span></a>
+                   
                 </div>
                 <div className="header__nav">
                     <ul>

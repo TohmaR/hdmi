@@ -84,6 +84,12 @@
 .home__image{
   display: none;
   z-index: 3;
+  transition: all .4s ease-in-out;
+  user-select: none;
+}
+
+.home__image:hover{
+  filter: contrast(150%);
 }
 
 .home__backgroundImage{
@@ -96,6 +102,7 @@
   object-fit: contain;
   opacity: 0.1;
   overflow: hidden;
+  user-select: none;
 }
 
 .home__scroll{
@@ -191,7 +198,7 @@
     margin-bottom: 18px;
   }
   .home__subtitle{
-    font-size: 36px;
+    font-size: 42px;
   }
   .home__text{
     font-size: 16px;

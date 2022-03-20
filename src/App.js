@@ -14,6 +14,7 @@ function App() {
       smooth: true,
       getSpeed: true,
       getDirection: true,
+      multiplier:0.7,
       offset:["15%",0]
     })
     
