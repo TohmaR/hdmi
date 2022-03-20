@@ -100,8 +100,39 @@
 
 .home__scroll{
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 20px;
-  animation: scroll-button-frames 2s ease infinite;
+}
+
+.home__scroll__container{
+  position: relative;
+  display: flex;
+}
+
+.home__scroll__arrow{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.home__scroll__image{
+  width: 100px;
+  height: 100px;
+  animation: rotate-scroll 10s linear infinite;
+}
+
+@keyframes rotate-scroll {
+  0% {
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes scroll-button-frames {
