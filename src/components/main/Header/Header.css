@@ -52,8 +52,28 @@ header{
 }
 
 .header__nav li{
+    position: relative;
     margin: 0 12px;
+    padding: 3px 0;
+    cursor: pointer;
 }
+
+.header__nav li:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    height: 3px;
+    background: #fed41e;
+    transition: 0.4s ease-out;
+}
+
+.header__nav li:hover:after{
+    left: 0;
+    width: 100%;
+}
+
 
 
 .header__toggleBtn {

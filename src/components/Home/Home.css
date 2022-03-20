@@ -112,9 +112,10 @@
 
 .home__scroll__arrow{
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
+  animation: scroll-button-frames 1.5s infinite;
 }
 
 .home__scroll__image{
@@ -137,19 +138,19 @@
 
 @keyframes scroll-button-frames {
   0%{
-    transform: translateY(-15px);
+    transform:  translate(-50%, -15px);
     opacity: 0;
   }
   45%{
-    transform: translateY(0px);
+    transform: translate(-50%, 0px);
     opacity: 1;
   }
   65%{
-    transform: translateY(-5px);
+    transform: translate(-50%,-5px);
     opacity: 1;
   }
   100%{
-    transform: translateY(15px);
+    transform: translate(-50%, 15px);
     opacity:  0;
   }
 }

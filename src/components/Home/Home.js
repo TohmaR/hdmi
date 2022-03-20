@@ -37,10 +37,12 @@ function Home() {
             <div className='home__gradient'></div>
             <div className="home__scroll"> 
                 <div className="home__scroll__container">
-                    <img className="home__scroll__image" src="images/scroll-down.png" alt="scroll-down" />
-                    <svg className="home__scroll__arrow" width="34" height="20" viewBox="0 0 34 20" fill="none"xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2 2L17 17L32 2" stroke="#F7F0EE" strokeWidth="4" />
-                    </svg>
+                    <a href="#fonctionnalite">
+                        <img className="home__scroll__image" src="images/scroll-down.png" alt="scroll-down" />
+                        <svg className="home__scroll__arrow" width="34" height="20" viewBox="0 0 34 20" fill="none"xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L17 17L32 2" stroke="#F7F0EE" strokeWidth="4" />
+                        </svg>
+                    </a>
                 </div>
             </div>
             <div class="home__wave">
