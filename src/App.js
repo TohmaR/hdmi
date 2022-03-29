@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './App.css';
 import locomotiveScroll from 'locomotive-scroll';
+import Cursor from './components/main/Cursor/Cursor';
 import Header from './components/main/Header/Header';
 import Home from './components/Home/Home';
 import Investment from './components/Investment/Investment';
@@ -28,6 +29,7 @@ function App() {
   
   return (
       <div className="App" ref={scrollRef}>
+        <Cursor />
         <Header />
         <Home />
         <div id="fonctionnalite"></div>
