@@ -1,0 +1,40 @@
+.avis{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.avis__container{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 3rem;
+    max-width: 70vw;
+    padding: 10vh 0 ;
+}
+
+.avis__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #5a6aec;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 25px;
+    filter: drop-shadow(0 0 0.3rem black);
+}
+
+.avis__username{
+    margin-bottom: 25px;
+}
+
+.avis__description{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 700;
+}

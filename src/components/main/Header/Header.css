@@ -41,6 +41,7 @@ header{
     font-size: 35px;
     cursor: pointer;
     transition: all .2s ease-in-out;
+    filter: drop-shadow(0 0 0.2rem black);
 }
 
 .header__hdmi:hover{
@@ -68,6 +69,7 @@ header{
     margin: 0 12px;
     padding: 3px 0;
     cursor: pointer;
+    filter: drop-shadow(0 0 0.15rem black);
 }
 
 .header__nav li:after{
@@ -194,6 +196,7 @@ header{
 .header__social svg{
     cursor: pointer;
     transition: all .2s ease-in-out;
+    filter: drop-shadow(0 0 0.15rem black);
 }
 
 .header__social svg:hover{
@@ -208,6 +211,7 @@ header{
     font-weight: 700;
     transition: all .2s ease-in-out;
     cursor: pointer;
+    filter: drop-shadow(0 0 0.1rem black);
 }
 
 .header__cta:hover{

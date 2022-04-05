@@ -4,8 +4,8 @@ import locomotiveScroll from 'locomotive-scroll';
 import Cursor from './components/main/Cursor/Cursor';
 import Header from './components/main/Header/Header';
 import Home from './components/Home/Home';
-import Investment from './components/Investment/Investment';
-import Market from './components/Market/Market';
+import Slider from './components/Slider/Slider';
+import Avis from './components/Avis/Avis';
 import Footer from './components/main/Footer/Footer';
 function App() {
   const scrollRef = useRef();
@@ -33,7 +33,8 @@ function App() {
         <Header />
         <Home />
         <div id="fonctionnalite"></div>
-        <Investment />
+        <Slider />
+        <Avis />
         <Footer />
       </div>
   );

@@ -13,7 +13,7 @@ function Home() {
             <div className="home__container">
                 <div className="home__content">
                     <h1 className="home__title">Bienvenue sur HDMI</h1>
-                    <h2 className="home__subtitle">Ne manquer aucune opportunité est notre devise.</h2>
+                    <h2 className="home__subtitle">Saisissez les meilleures opportunités.</h2>
                     <p className="home__text">
                         HDMI est un groupe vous fournissant toutes les ressources nécessaires pour investir dans les NFT, que vous soyez novice ou expérimenté.
                     </p>
