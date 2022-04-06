@@ -59,7 +59,7 @@ function Slider() {
             verticalSwipe='default'
             swipeable={true}
             showStatus={false}
-            swipeScrollTolerance={100}
+            swipeScrollTolerance={300}
             renderArrowPrev={(clickHandler, hasPrev, labelPrev) =>
                 hasPrev && (
                     <button onClick={clickHandler} className="slider__leftArrow">
