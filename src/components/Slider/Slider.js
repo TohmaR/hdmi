@@ -57,6 +57,7 @@ function Slider() {
             autoPlay={true}
             interval={5000}
             verticalSwipe='default'
+            swipeable={false}
             showStatus={false}
             swipeScrollTolerance={300}
             renderArrowPrev={(clickHandler, hasPrev, labelPrev) =>
