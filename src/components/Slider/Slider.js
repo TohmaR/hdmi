@@ -1,6 +1,5 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
-import { ArrowLeftSliderSvg, ArrowRightSliderSvg } from '../main/Icons/svg';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import "./Slider.css"
 import '../../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css'
