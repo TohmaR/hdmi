@@ -110,11 +110,40 @@
 }
 
 @media screen and (min-width: 1025px) {
+
+  .slider__leftArrow, .slider__rightArrow{
+    transform: scale(1);
+}
+
+  .slider{
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+  }
+
   .slider__rightArrow{
     right: 5%;
   }
 
-.slider__leftArrow{
-    left: 5%;
-}
+  .slider__leftArrow{
+      left: 5%;
+  }
+
+  .slider__content{
+  
+    flex-direction: row;
+    margin-top: 50px;
+  }
+
+  .slider__logo{
+    max-width: 20vw;
+  }
+
+  .slider__text{
+    color: white;
+    font-size: 18px;
+  }
+
+  .slider__title__container{
+    margin-bottom: 100px;
+  }
 }
