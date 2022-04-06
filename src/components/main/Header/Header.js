@@ -27,16 +27,15 @@ function Header() {
                 <div className="header__nav">
                     <ul>
                         <a href="#fonctionnalite"><li>Fonctionnalités</li></a>
-                        <li>Tarif</li>
                         <li>Avis</li>
                     </ul>
                 </div>
                 <div className="header__right">
                     <div className='header__social'> 
-                        <DiscordSvg />
-                        <TwitterSvg />
+                        <a href="https://discord.gg/bNxJ9RwwZ2" target="_blank" rel="noreferrer"><DiscordSvg /></a>
+                        <a href="https://twitter.com/HDMIping" target="_blank" rel="noreferrer"><TwitterSvg /></a>
                     </div>
-                    <div className="header__cta">Dashboard</div>
+                    <a href="https://dashboard.hdmiping.com" target="_blank" rel="noreferrer"><div className="header__cta">Dashboard</div></a>
                 </div>
             </header>
             }
@@ -62,9 +61,8 @@ function Header() {
                         <ul>
                             <li onClick={() => setToggleMenu(false)}><a href="#metakicks">Accueil</a></li>
                             <li onClick={() => setToggleMenu(false)}><a href="#roadmap">Fonctionnalités</a></li>
-                            <li onClick={() => setToggleMenu(false)}><a href="#team">Tarif</a></li>
                             <li onClick={() => setToggleMenu(false)}><a href="#faq">Avis</a></li>
-                            <li><a>Dashboard</a></li>
+                            <li><a href="https://dashboard.hdmiping.com" target="_blank" rel="noreferrer">Dashboard</a></li>
                         </ul>
                     </div>
                     <div className="header__footer">

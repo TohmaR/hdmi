@@ -15,37 +15,37 @@ const fonctionnalites = [
     {
         id:"1",
         title: "Données",
-        description: "Grâce au développement d’un système de notifications et de rappels automatisé, ne manquez aucuns des événements importants qui ont lieu dans le space.",
+        description: "Obtenez l’accès aux différentes bases de données de notre équipe directement via notre serveur Discord.",
         img: "/images/3Dlogo/Safe (front view).png"
     },
     {
         id:"2",
         title: "Signals",
-        description: "Grâce au développement d’un système de notifications et de rappels automatisé, ne manquez aucuns des événements importants qui ont lieu dans le space.",
+        description: "Nous nous chargeons de suivre quotidiennement le marché et de repérer les opportunitées qu’il offre afin que nos membres maximisent leurs performances.",
         img: "/images/3Dlogo/Rocket (left side view).png"
     },
     {
         id:"3",
         title: "Communauté",
-        description: "Grâce au développement d’un système de notifications et de rappels automatisé, ne manquez aucuns des événements importants qui ont lieu dans le space.",
+        description: "Nous mettons un point d’honneur sur notre communauté, notre volonté est de faire de nos membres des acteurs importants du marché toutes catégories confondues. Nous sommes tous très proches et la solidarité est une des valeurs maître de notre organisation.",
         img: "/images/3Dlogo/Lock (left side view).png"
     },
     {
         id:"4",
         title: "Support",
-        description: "Grâce au développement d’un système de notifications et de rappels automatisé, ne manquez aucuns des événements importants qui ont lieu dans le space.",
+        description: "Le groupe entier se rend disponible pour de l’entraide, aucun membre ne reste avec des questions sans réponses. Notre équipe est aussi constamment disponible pour vous accompagner au cas par cas.",
         img: "/images/3Dlogo/Anonymous (left side view).png"
     },
     {
         id:"5",
         title: "Outils",
-        description: "Grâce au développement d’un système de notifications et de rappels automatisé, ne manquez aucuns des événements importants qui ont lieu dans le space.",
+        description: "Nos membres ont à leur disposition différents monitors & autres outils qui viennent fortifier les informations partagées & aiguiser leur analyse.",
         img: "/images/3Dlogo/Keys (left side view).png"
     },
     {
         id:"6",
         title: "Education",
-        description: "Grâce au développement d’un système de notifications et de rappels automatisé, ne manquez aucuns des événements importants qui ont lieu dans le space.",
+        description: "Introduire & sensibiliser des personnes sans aucunes connaissances au marché des NFT est un aspect important pour nous, HDMI est aménagé pour pouvoir recevoir des personnes de tous les niveaux.",
         img: "/images/3Dlogo/Contract (left side view).png"
     }
 ]
@@ -58,7 +58,6 @@ function Slider() {
             autoPlay={true}
             interval={5000}
             verticalSwipe='default'
-            emulateTouch={true}
             swipeable={true}
             showStatus={false}
             renderArrowPrev={(clickHandler, hasPrev, labelPrev) =>
