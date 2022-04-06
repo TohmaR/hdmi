@@ -130,7 +130,7 @@ header{
     top: 0;
     top:-200%;
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 100%;
     background: linear-gradient(#5a6aec,#2a3578 70%);
     color: white;
     z-index: 90;

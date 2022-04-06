@@ -19,7 +19,7 @@
 }
 
 .slider{
-    background-color: #4b5edc;
+    background-color: #4b5edc!important;
     min-height: 80vh;
     width: 100vw;
 }
