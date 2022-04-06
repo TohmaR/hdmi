@@ -14,7 +14,7 @@ const fonctionnalites = [
     },
     {
         id:"1",
-        title: "Base de données",
+        title: "Données",
         description: "Grâce au développement d’un système de notifications et de rappels automatisé, ne manquez aucuns des événements importants qui ont lieu dans le space.",
         img: "/images/3Dlogo/Safe (front view).png"
     },
@@ -88,8 +88,6 @@ function Slider() {
                                     className="slider__logo"
                                     src={item.img}
                                     alt="LogoHDMI"
-                                    width={80}
-                                    height={300}
                                 />
                                 <div className="slider__text">
                                     {item.description}
