@@ -8,7 +8,7 @@ const fonctionnalites = [
     {
         id:"0",
         title: "Notifications",
-        description: "Grâce au développement d’un système de notifications et de rappels automatisé, ne manquez aucuns des événements importants qui ont lieu dans le space.",
+        description: "Grâce au développement d’un système de notifications et de rappels automatisé, ne manquez aucun des événements importants qui ont lieu dans le space.",
         img: "/images/3Dlogo/Flying Coins (front view).png"
     },
     {
@@ -20,13 +20,13 @@ const fonctionnalites = [
     {
         id:"2",
         title: "Signals",
-        description: "Nous nous chargeons de suivre quotidiennement le marché et de repérer les opportunitées qu’il offre afin que nos membres maximisent leurs performances.",
+        description: "Nous nous chargeons de suivre quotidiennement le marché et de repérer les opportunités qu’il offre afin que nos membres maximisent leurs performances.",
         img: "/images/3Dlogo/Rocket (left side view).png"
     },
     {
         id:"3",
         title: "Communauté",
-        description: "Nous mettons un point d’honneur sur notre communauté, notre volonté est de faire de nos membres des acteurs importants du marché toutes catégories confondues. Nous sommes tous très proches et la solidarité est une des valeurs maître de notre organisation.",
+        description: "Nous mettons un point d’honneur à faire de nos membres des acteurs importants du marché toutes catégories confondues. Nous sommes tous très proches et la solidarité est une des valeurs maîtresse de notre organisation.",
         img: "/images/3Dlogo/Lock (left side view).png"
     },
     {
