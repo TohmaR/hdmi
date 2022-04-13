@@ -38,6 +38,7 @@
   letter-spacing: 1px;
   color: #fed41e;
   margin-bottom: 10px;
+  filter: drop-shadow(0 0 0.2rem black);
 }
 
 .home__subtitle{
@@ -46,14 +47,14 @@
   letter-spacing: 1px;
   color: #e1e2ec;
   margin-bottom: 15px;
- 
+  filter: drop-shadow(0 0 0.2rem black);
 }
 .home__text{
   font-size: 10px;
   color: white;
   margin-bottom: 20px;
   letter-spacing: 1px;
-
+  filter: drop-shadow(0 0 0.2rem black);
 }
 
 .home__cta{
