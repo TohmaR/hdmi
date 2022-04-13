@@ -17,11 +17,13 @@ function Home() {
                     <p className="home__text">
                         HDMI est un groupe vous fournissant toutes les ressources nécessaires pour investir dans les NFT, que vous soyez novice ou expérimenté.
                     </p>
-                    <div className="home__cta">
-                        <DiscordSvg />
-                        <span>Rejoingnez notre discord </span>
-                        <ArrowRightSvg />
-                    </div>
+                    <a href="https://discord.gg/bNxJ9RwwZ2" target="_blank" rel="noreferrer">
+                        <div className="home__cta">
+                            <DiscordSvg />
+                            <span>Rejoingnez notre discord </span>
+                            <ArrowRightSvg />
+                        </div>
+                    </a>
                 </div>
                 <img 
                     className="home__image"
