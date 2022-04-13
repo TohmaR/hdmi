@@ -16,7 +16,9 @@ function App() {
       getSpeed: true,
       getDirection: true,
       multiplier:0.7,
-      offset:["15%",0]
+      offset:["15%",0],
+      smartphone: { smooth: false, },
+      tablet: { smooth: false, },
     })
     
     
