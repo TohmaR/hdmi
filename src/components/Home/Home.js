@@ -20,7 +20,7 @@ function Home() {
                     <a href="https://discord.gg/bNxJ9RwwZ2" target="_blank" rel="noreferrer">
                         <div className="home__cta">
                             <DiscordSvg />
-                            <span>Rejoingner notre discord </span>
+                            <span>Rejoignez notre discord </span>
                             <ArrowRightSvg />
                         </div>
                     </a>
