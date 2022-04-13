@@ -34,7 +34,6 @@ function App() {
         <Cursor />
         <Header />
         <Home />
-        <div id="fonctionnalite"></div>
         <Slider />
         <Footer />
       </div>

@@ -59,9 +59,9 @@ function Header() {
                 <div className={toggleMenu ? "header__menu open" : "header__menu"}>
                     <div className='header__menu__nav'>
                         <ul>
-                            <li onClick={() => setToggleMenu(false)}><a href="#metakicks">Accueil</a></li>
-                            <li onClick={() => setToggleMenu(false)}><a href="#roadmap">Fonctionnalités</a></li>
-                            <li onClick={() => setToggleMenu(false)}><a href="#faq">Avis</a></li>
+                            <li onClick={() => setToggleMenu(false)}><a href="#accueil">Accueil</a></li>
+                            <li onClick={() => setToggleMenu(false)}><a href="#fonctionnalites">Fonctionnalités</a></li>
+                            {/* <li onClick={() => setToggleMenu(false)}><a href="#faq">Avis</a></li> */}
                             <li><a href="https://dashboard.hdmiping.com" target="_blank" rel="noreferrer">Dashboard</a></li>
                         </ul>
                     </div>
