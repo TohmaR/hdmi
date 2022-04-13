@@ -20,7 +20,7 @@
 
 .slider{
     background-color: #4b5edc!important;
-    max-height: fit-content;
+    min-height: 80vh;
     width: 100vw;
 }
 .slider__container{
@@ -56,7 +56,7 @@
   -webkit-text-stroke: 0px;
   white-space: nowrap;
   filter: drop-shadow(0 0 0.3rem black);
-  top: 30px;
+  top: 60px;
 
 }
 
