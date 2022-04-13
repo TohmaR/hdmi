@@ -89,6 +89,7 @@
   z-index: 3;
   transition: all .4s ease-in-out;
   user-select: none;
+  filter: drop-shadow(0 0 0.8rem black);
 }
 
 .home__backgroundImage{
