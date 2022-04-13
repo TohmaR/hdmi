@@ -32,8 +32,10 @@ function App() {
   return (
       <div className="App" ref={scrollRef}>
         <Cursor />
+        <div id="accueil"></div>
         <Header />
         <Home />
+        <div id="fonctionnalites"></div>
         <Slider />
         <Footer />
       </div>
