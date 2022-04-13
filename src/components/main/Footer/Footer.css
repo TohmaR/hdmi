@@ -1,5 +1,6 @@
 .footer{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -7,6 +8,29 @@
     font-size: 2.5vw;
     color: white;
     background-color: #2a3578;
+    padding-bottom: 20px;
+}
+
+.footer__social{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer__social svg:first-child{
+    margin-right: 10px;
+}
+
+.footer__social svg{
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    filter: drop-shadow(0 0 0.15rem black);
+}
+
+.footer__social svg:hover{
+    fill: #fed41e;
 }
 
 @media screen and (min-width: 1025px) {
