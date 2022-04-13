@@ -82,6 +82,24 @@
   }
 }
 
+.slider__logo{
+  animation: bounce 4s ease-in-out infinite;
+}
+@keyframes bounce {
+  0% {
+    filter: drop-shadow(10px 12px 5px #2424246b) saturate(100%);
+    transform: translatey(0px);
+
+  }
+  50% {
+    filter: drop-shadow(7px 30px 12px #1c1c1cb4) saturate(150%);
+    transform: translatey(-15px);
+  }
+  100% {
+    filter: drop-shadow(10px 12px 5px #2424246b) saturate(100%);
+    transform: translatey(0px);
+  }
+}
 .slider__text{
     color: white;
     font-size: 12px;
