@@ -34,7 +34,6 @@ function App() {
         <Home />
         <div id="fonctionnalite"></div>
         <Slider />
-        <Avis />
         <Footer />
       </div>
   );
