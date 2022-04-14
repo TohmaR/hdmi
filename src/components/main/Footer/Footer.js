@@ -10,7 +10,7 @@ function Footer() {
       {isTabletOrMobile
       &&
         <div className='footer__social'>
-            <a href="https://l.linklyhq.com/l/140iR" target="_blank" rel="noreferrer"><DiscordSvg /></a>
+            <a href="https://l.linklyhq.com/l/140nn" target="_blank" rel="noreferrer"><DiscordSvg /></a>
             <a href="https://l.linklyhq.com/l/140l2" target="_blank" rel="noreferrer"><TwitterSvg /></a>
         </div>
       }

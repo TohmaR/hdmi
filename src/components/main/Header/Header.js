@@ -32,10 +32,10 @@ function Header() {
                 </div>
                 <div className="header__right">
                     <div className='header__social'> 
-                        <a href="https://l.linklyhq.com/l/140iR" target="_blank" rel="noreferrer"><DiscordSvg /></a>
+                        <a href="https://l.linklyhq.com/l/140nn" target="_blank" rel="noreferrer"><DiscordSvg /></a>
                         <a href="https://l.linklyhq.com/l/140l2" target="_blank" rel="noreferrer"><TwitterSvg /></a>
                     </div>
-                    <a href="https://l.linklyhq.com/l/140nn" target="_blank" rel="noreferrer"><div className="header__cta">Dashboard</div></a>
+                    <a href="https://l.linklyhq.com/l/140iR" target="_blank" rel="noreferrer"><div className="header__cta">Dashboard</div></a>
                 </div>
             </header>
             }
@@ -62,12 +62,12 @@ function Header() {
                             <li onClick={() => setToggleMenu(false)}><a href="#accueil">Accueil</a></li>
                             <li onClick={() => setToggleMenu(false)}><a href="#fonctionnalites">Fonctionnalités</a></li>
                             {/* <li onClick={() => setToggleMenu(false)}><a href="#faq">Avis</a></li> */}
-                            <li><a href="https://l.linklyhq.com/l/140nn" target="_blank" rel="noreferrer">Dashboard</a></li>
+                            <li><a href="https://l.linklyhq.com/l/140iR" target="_blank" rel="noreferrer">Dashboard</a></li>
                         </ul>
                     </div>
                     <div className="header__footer">
                         <div className='header__social'>
-                            <a href="https://l.linklyhq.com/l/140iR" target="_blank" rel="noreferrer"><DiscordSvg /></a>
+                            <a href="https://l.linklyhq.com/l/140nn" target="_blank" rel="noreferrer"><DiscordSvg /></a>
                             <a href="https://l.linklyhq.com/l/140l2" target="_blank" rel="noreferrer"><TwitterSvg /></a>
                         </div>
                     </div>

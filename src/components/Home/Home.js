@@ -17,7 +17,7 @@ function Home() {
                     <p className="home__text">
                         HDMI est un groupe vous fournissant toutes les ressources nécessaires pour investir dans les NFT, que vous soyez novice ou expérimenté.
                     </p>
-                    <a href="https://l.linklyhq.com/l/140iR" target="_blank" rel="noreferrer">
+                    <a href="https://l.linklyhq.com/l/140nn" target="_blank" rel="noreferrer">
                         <div className="home__cta">
                             <DiscordSvg />
                             <span>Rejoignez notre discord </span>
