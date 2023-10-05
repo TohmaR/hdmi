@@ -96,6 +96,8 @@ function Slider() {
                                     className="slider__logo"
                                     src={item.img}
                                     alt="LogoHDMI"
+                                    width="400px"
+                                    height="400px"
                                 />
                                 <div className="slider__text">
                                     {item.description}
