@@ -31,7 +31,7 @@ function Header() {
                 <div className="header__right">
                     <div className='header__social'> 
                         <a href="https://l.linklyhq.com/l/140nn" target="_blank" aria-label='Discord' rel="noreferrer"><DiscordSvg /></a>
-                        <a href="https://l.linklyhq.com/l/140l2" target="_blank" arial-label="Twitter" rel="noreferrer"><TwitterSvg /></a>
+                        <a href="https://l.linklyhq.com/l/140l2" target="_blank" aria-label="Twitter" rel="noreferrer"><TwitterSvg /></a>
                     </div>
                     <a href="https://l.linklyhq.com/l/140iR" target="_blank" rel="noreferrer"><div className="header__cta">Dashboard</div></a>
                 </div>
