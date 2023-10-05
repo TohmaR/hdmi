@@ -23,7 +23,9 @@ function Header() {
                 </div>
                 <div className="header__nav">
                     <ul>
-                        <a href="#fonctionnalite"><li>Fonctionnalités</li></a>
+                        <li>
+                            <a href="#fonctionnalite">Fonctionnalités</a>
+                        </li>
                     </ul>
                 </div>
                 <div className="header__right">
