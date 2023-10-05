@@ -57,7 +57,6 @@ function Header() {
                         <ul>
                             <li onClick={() => setToggleMenu(false)}><a href="#accueil">Accueil</a></li>
                             <li onClick={() => setToggleMenu(false)}><a href="#fonctionnalites">Fonctionnalités</a></li>
-                            {/* <li onClick={() => setToggleMenu(false)}><a href="#faq">Avis</a></li> */}
                             <li><a href="https://l.linklyhq.com/l/140iR" target="_blank" rel="noreferrer">Dashboard</a></li>
                         </ul>
                     </div>

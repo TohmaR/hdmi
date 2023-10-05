@@ -61,6 +61,7 @@ function Slider() {
   return (
     <section className="slider" data-scroll-section>
        <Carousel 
+            showThumbs={false}
             infiniteLoop={true}
             autoPlay={true}
             interval={5000}
