@@ -1,11 +1,13 @@
 @font-face {
   font-family: "hemiHead";
-  src: url("../public/fonts/hemiHead.ttf") format("woff2")
+  src: url("../public/fonts/hemiHead.ttf") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "MonumentExtended-Regular";
-  src: url("../public/fonts/monumentextended/MonumentExtended-Regular.otf") format("opentype")
+  src: url("../public/fonts/monumentextended/MonumentExtended-Regular.otf") format("opentype");
+  font-display: swap;
 }
 html{
   scroll-behavior: smooth;

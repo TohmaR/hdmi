@@ -13,13 +13,18 @@ function Header() {
             <header>
                 <div className="header__left">
                     <a href="/">
-                        <img 
+                        {/* <img 
                             className='header__logo'
                             src="/images/HDMIlogo.gif"
                             alt="LogoHDMI"
                             width={100}
                             height={100}
-                        />
+                        /> */}
+                        <video className='header__logo' aria-label='header__logo' width={100} height={100} autoPlay loop muted>
+                            <source src="/images/HDMIlogo.webM" type="video/webm" />
+                            Votre navigateur ne supporte pas la vidéo.
+                        </video>
+                        
                     </a>
                    <a href="/"><span className='header__hdmi'>HDMI</span></a>
                    
@@ -32,8 +37,8 @@ function Header() {
                 </div>
                 <div className="header__right">
                     <div className='header__social'> 
-                        <a href="https://l.linklyhq.com/l/140nn" target="_blank" rel="noreferrer"><DiscordSvg /></a>
-                        <a href="https://l.linklyhq.com/l/140l2" target="_blank" rel="noreferrer"><TwitterSvg /></a>
+                        <a href="https://l.linklyhq.com/l/140nn" target="_blank" aria-label='Discord' rel="noreferrer"><DiscordSvg /></a>
+                        <a href="https://l.linklyhq.com/l/140l2" target="_blank" arial-label="Twitter" rel="noreferrer"><TwitterSvg /></a>
                     </div>
                     <a href="https://l.linklyhq.com/l/140iR" target="_blank" rel="noreferrer"><div className="header__cta">Dashboard</div></a>
                 </div>

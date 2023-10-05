@@ -9,43 +9,43 @@ const fonctionnalites = [
         id:"0",
         title: "Notifications",
         description: "Grâce au développement d’un système de notifications et de rappels automatisé, ne manquez aucun des événements importants qui ont lieu dans le space.",
-        img: "/images/3Dlogo/Flying Coins (front view).png"
+        img: "/images/3Dlogo/FlyingCoins.webp"
     },
     {
         id:"1",
         title: "Données",
         description: "Obtenez l’accès aux différentes bases de données de notre équipe directement via notre serveur Discord.",
-        img: "/images/3Dlogo/Safe (front view).png"
+        img: "/images/3Dlogo/Safe.webp"
     },
     {
         id:"2",
         title: "Signals",
         description: "Nous nous chargeons de suivre quotidiennement le marché et de repérer les opportunités qu’il offre afin que nos membres maximisent leurs performances.",
-        img: "/images/3Dlogo/Rocket (left side view).png"
+        img: "/images/3Dlogo/Rocket.webp"
     },
     {
         id:"3",
         title: "Communauté",
         description: "Nous mettons un point d’honneur à faire de nos membres des acteurs importants du marché toutes catégories confondues. Nous sommes tous très proches et la solidarité est une des valeurs maîtresse de notre organisation.",
-        img: "/images/3Dlogo/Lock (left side view).png"
+        img: "/images/3Dlogo/Lock.webp"
     },
     {
         id:"4",
         title: "Support",
         description: "Le groupe entier se rend disponible pour de l’entraide, aucun membre ne reste avec des questions sans réponses. Notre équipe est aussi constamment disponible pour vous accompagner au cas par cas.",
-        img: "/images/3Dlogo/Anonymous (left side view).png"
+        img: "/images/3Dlogo/Anonymous.webp"
     },
     {
         id:"5",
         title: "Outils",
         description: "Nos membres ont à leur disposition différents monitors & autres outils qui viennent fortifier les informations partagées & aiguiser leur analyse.",
-        img: "/images/3Dlogo/Keys (left side view).png"
+        img: "/images/3Dlogo/Keys.webp"
     },
     {
         id:"6",
         title: "Education",
         description: "Introduire & sensibiliser des personnes sans aucunes connaissances au marché des NFT est un aspect important pour nous, HDMI est aménagé pour pouvoir recevoir des personnes de tous les niveaux.",
-        img: "/images/3Dlogo/Contract (left side view).png"
+        img: "/images/3Dlogo/Contract.webp"
     }
 ]
 
@@ -63,14 +63,14 @@ function Slider() {
             swipeScrollTolerance={100}
             renderArrowPrev={(clickHandler, hasPrev, labelPrev) =>
                 hasPrev && (
-                    <button onClick={clickHandler} className="slider__leftArrow">
+                    <button onClick={clickHandler} className="slider__leftArrow" aria-label="slider__leftArrow">
                         <ArrowRightAltIcon sx={{ fontSize: 100 }} style={{ transform: "rotate(180deg)" }}/>
                     </button>
                 )
             }
             renderArrowNext={(clickHandler, hasNext, labelNext) =>
                 hasNext && (
-                    <button onClick={clickHandler} className="slider__rightArrow">
+                    <button onClick={clickHandler} className="slider__rightArrow" aria-label="slider__rightArrow">
                        <ArrowRightAltIcon sx={{ fontSize: 100 }}  />
                     </button>
                 )

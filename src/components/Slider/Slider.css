@@ -154,7 +154,8 @@
   }
 
   .slider__logo{
-    max-width: 20vw;
+    width: 20vw!important;
+    height: auto;
   }
 
   .slider__text{

@@ -25,17 +25,15 @@ function Home() {
                         </div>
                     </a>
                 </div>
-                <img 
-                    className="home__image"
-                    src="/images/HDMIlogo.gif"
-                    alt="LogoHDMI"
-                />
+                <video className="home__image" autoPlay loop muted>
+                    <source src="/images/HDMIlogo.webM" type="video/webm" />
+                    Votre navigateur ne supporte pas la vidéo.
+                </video>
             </div>
-            <img 
-                className="home__backgroundImage"
-                src="/images/HDMIlogo.gif"
-                alt="LogoHDMI"
-            />
+            <video className="home__backgroundImage" autoPlay loop muted>
+                <source src="/images/HDMIlogo.webM" type="video/webm" />
+                Votre navigateur ne supporte pas la vidéo.
+            </video>
             <div className='home__gradient'></div>
             <div className="home__scroll"> 
                 <div className="home__scroll__container">
