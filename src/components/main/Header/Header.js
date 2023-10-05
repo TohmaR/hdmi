@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useMediaQuery } from 'react-responsive'
 import { DiscordSvg, TwitterSvg } from '../Icons/svg';
+import HeaderLogo from "../../../images/HDMIlogo.webm"
 import "./Header.css"
 function Header() {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -13,26 +14,16 @@ function Header() {
             <header>
                 <div className="header__left">
                     <a href="/">
-                        {/* <img 
-                            className='header__logo'
-                            src="/images/HDMIlogo.gif"
-                            alt="LogoHDMI"
-                            width={100}
-                            height={100}
-                        /> */}
                         <video className='header__logo' aria-label='header__logo' width={100} height={100} autoPlay loop muted>
-                            <source src="/images/HDMIlogo.webM" type="video/webm" />
+                            <source src={HeaderLogo} type="video/webm" />
                             Votre navigateur ne supporte pas la vidéo.
                         </video>
-                        
                     </a>
                    <a href="/"><span className='header__hdmi'>HDMI</span></a>
-                   
                 </div>
                 <div className="header__nav">
                     <ul>
                         <a href="#fonctionnalite"><li>Fonctionnalités</li></a>
-                        <li>Avis</li>
                     </ul>
                 </div>
                 <div className="header__right">
@@ -48,12 +39,10 @@ function Header() {
             &&
             <>
                 <header>
-                    <img 
-                        src="/images/HDMIlogo.gif"
-                        alt="LogoHDMI"
-                        width={80}
-                        height={80}
-                    />
+                    <video className='header__logo' aria-label='header__logo' width={80} height={80} autoPlay loop muted>
+                        <source src={HeaderLogo} type="video/webm" />
+                        Votre navigateur ne supporte pas la vidéo.
+                    </video>
                     <span className='header__hdmi'>HDMI</span>
                     <div className={toggleMenu ? "header__toggleBtn open" : "header__toggleBtn"} onClick={() => setToggleMenu(!toggleMenu)}>
                         <span></span>

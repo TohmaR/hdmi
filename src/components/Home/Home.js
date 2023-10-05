@@ -1,6 +1,8 @@
 import React from 'react'
 import { useMediaQuery } from 'react-responsive'
 import { DiscordSvg, ArrowRightSvg, ArrowDownSvg } from '../main/Icons/svg'
+import HomeLogo from "../../images/HDMIlogo.webm"
+import scrollDown from "../../images/scroll-down.png"
 import './Home.css'
 
 function Home() {
@@ -26,19 +28,19 @@ function Home() {
                     </a>
                 </div>
                 <video className="home__image" autoPlay loop muted>
-                    <source src="/images/HDMIlogo.webM" type="video/webm" />
+                    <source src={HomeLogo} type="video/webm" />
                     Votre navigateur ne supporte pas la vidéo.
                 </video>
             </div>
             <video className="home__backgroundImage" autoPlay loop muted>
-                <source src="/images/HDMIlogo.webM" type="video/webm" />
+                <source src={HomeLogo} type="video/webm" />
                 Votre navigateur ne supporte pas la vidéo.
             </video>
             <div className='home__gradient'></div>
             <div className="home__scroll"> 
                 <div className="home__scroll__container">
                     <a href="#fonctionnalite">
-                        <img className="home__scroll__image" src="images/scroll-down.png" alt="scroll-down" />
+                        <img className="home__scroll__image" src={scrollDown} alt="scroll-down" />
                         <svg className="home__scroll__arrow" width="34" height="20" viewBox="0 0 34 20" fill="none"xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 2L17 17L32 2" stroke="#F7F0EE" strokeWidth="4" />
                         </svg>
